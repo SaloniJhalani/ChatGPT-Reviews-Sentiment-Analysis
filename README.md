@@ -56,8 +56,7 @@ Based on the evaluation results, the best-performing model was **XGBoost** which
 ## Future Improvements
 * Increase the Training Data: Collect more diverse and representative user reviews to expand the training dataset. This can help improve the model's generalization and performance on a wider range of reviews.
 * Fine-tune the Model: Experiment with different fine-tuning techniques and hyperparameter tuning to enhance the performance of the sentiment analysis model.
-* Explore Different There are various pre-trained models available, such as BERT, GPT-2, or RoBERTa, which might provide different insights and performance for sentiment analysis tasks.
-* Utilize Transfer Learning: Investigate the possibility of leveraging transfer learning techniques. Instead of training a model from scratch, fine-tune a pre-trained sentiment analysis model on a smaller dataset specific to the domain or application being analyzed. This can potentially improve the model's accuracy and efficiency.
+* Explore Different Language Models: There are various pre-trained models available, such as BERT, GPT-2, or RoBERTa, which might provide different insights and performance for sentiment analysis tasks.
   
 
 
