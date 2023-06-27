@@ -1,5 +1,7 @@
 # ChatGPT Review Sentiment Analysis 
 
+![ChatGPT Image](img/chatgpt_img.png)
+
 ## Project Overview
 
 This project focuses on sentiment analysis of ChatGPT reviews collected from the AppStore. The system analyzes the sentiment of user reviews and classifies them into positive, negative, or neutral categories. 
