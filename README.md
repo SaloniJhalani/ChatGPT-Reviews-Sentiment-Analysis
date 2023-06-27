@@ -34,9 +34,32 @@ Collected Data can be find [here](data/chatgpt_reviews.csv).
     * Tokenization: Splitting the text into individual words or tokens.
     * Normalization: Applied lemmatization to reduce words to their base or root form.
     * Categorizing the reviews based on their star ratings: 5 and 4 stars as positive sentiment, 3 stars as neutral sentiment, and 1 and       2 stars as negative sentiment.
+    * Handled Imbalanced Data: Sentiment classes in the dataset were imbalanced (e.g., significantly more positive reviews compared t negative reviews and  neutral reviews), addressed the issue using techniques such as Synthetic Minority Over-sampling Technique (SMOTE). 
 3. **Data Visualization**:  Visualized the reviews, positive, negative, and neutral sentiment using word clouds. This provided an intuitive representation of the most frequent and impactful words associated with each sentiment category.
 3. **Model Training**: Implemented and trained various machine learning algorithms such as logistic regression, Multinomial NB, random forests, and XGB.
 4. **Model Evaluation**: Assessed the performance of each model using metrics such as accuracy, precision, recall, F1-score. Selected the best-performing model.
+
+## Results
+
+### Reviews WordCloud
+![Reviews WordCloud](img/review_sentiment.png)
+
+### Positive Sentiment WordCloud
+![Reviews WordCloud](img/positive_sentiment.png)
+
+### Negative Sentiment WordCloud
+![Reviews WordCloud](img/negative_sentiment.png)
+
+### Sentiment Analsysis Results
+Based on the evaluation results, the best-performing model was **XGBoost** which achieved an accuracy of 87% and F1-score of more than  85%. 
+
+## Future Improvements
+* Increase the Training Data: Collect more diverse and representative user reviews to expand the training dataset. This can help improve the model's generalization and performance on a wider range of reviews.
+* Fine-tune the Model: Experiment with different fine-tuning techniques and hyperparameter tuning to enhance the performance of the sentiment analysis model.
+* Explore Different There are various pre-trained models available, such as BERT, GPT-2, or RoBERTa, which might provide different insights and performance for sentiment analysis tasks.
+* Utilize Transfer Learning: Investigate the possibility of leveraging transfer learning techniques. Instead of training a model from scratch, fine-tune a pre-trained sentiment analysis model on a smaller dataset specific to the domain or application being analyzed. This can potentially improve the model's accuracy and efficiency.
+  
+
 
 
   
